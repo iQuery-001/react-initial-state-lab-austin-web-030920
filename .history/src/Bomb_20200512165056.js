@@ -12,7 +12,7 @@ class Bomb extends Component {
         if (this.state.secondsLeft < 1) {
             return 'Boom!'
         } else {
-            return `${this.state.secondsLeft} seconds left before I go boom!`
+            return '${this.state.secondsLeft} seconds left before I go boom!'
         }
     }
 

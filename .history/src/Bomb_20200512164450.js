@@ -8,20 +8,16 @@ class Bomb extends Component {
         }
     }
 
-    shouldIExplode = () => {
-        if (this.state.secondsLeft < 1) {
-            return 'Boom!'
-        } else {
-            return `${this.state.secondsLeft} seconds left before I go boom!`
-        }
+    shouldIExplode() => {
+        if self.
     }
 
     render() {
         return (
             <div>
-                {this.shouldIExplode()}
+                
             </div>
-        )
+        );
     }
 }
 

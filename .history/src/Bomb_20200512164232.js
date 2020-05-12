@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
-class ImageSlider extends Component {
-    constructor() {
+class Bomb extends Component {
+    constructor (banana) {
         super()
         this.state = {
-            currentSlideIndex: 0
+            secondsLeft: banana.initialCount
         }
     }
 
     render() {
         return (
             <div>
-                I am on slide {this.state.currentSlideIndex}
+                
             </div>
         );
     }
 }
 
-export default ImageSlider;
+export default Bomb;
